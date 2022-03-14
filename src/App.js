@@ -1,5 +1,5 @@
 import './App.css';
-import {LandingPage , ProductListing} from "./pages/index.js";
+import {ProductListing} from "./pages/index.js";
 
 function App() {
   return (

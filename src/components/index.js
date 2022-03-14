@@ -1,7 +1,6 @@
 import Navbar from "./Navbar/Navbar";
 import Footer from "./Footer/Footer.jsx";
 import VerticalCard from "./Card/VerticalCard/VerticalCard";
-import HorizontalCard from "./Card/HorizontalCard/HorizontalCard";
 import HeroBanner from "./Banner/HeroBanner/HeroBanner.jsx";
 import PromotionBanner from "./Banner/PromotionBanner/PromotionBanner.jsx";
 import CategoryNavTab from "./CategoryNavTabs/CategoryNavTabs.jsx";
