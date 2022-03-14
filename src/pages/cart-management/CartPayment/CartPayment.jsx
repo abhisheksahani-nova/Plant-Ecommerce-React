@@ -1,3 +1,5 @@
+import "./cartPayment.css";
+
 function CartPayment() {
   return (
     <div class="cart_payment_receipt card-basic">
