@@ -1,3 +1,5 @@
+import "./heroBanner.css";
+
 function HeroBanner() {
   return (
     <section class="homepage_banner_container">

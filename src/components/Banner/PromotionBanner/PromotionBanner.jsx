@@ -1,3 +1,5 @@
+import "./promotionBanner.css";
+
 function PromotionBanner() {
   return (
     <section class="promotion_banner">

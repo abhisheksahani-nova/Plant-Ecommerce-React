@@ -1,4 +1,11 @@
-import { Navbar, Footer, VerticalCard, HeroBanner, PromotionBanner, CategoryNavTab } from "../../components/index";
+import {
+  Navbar,
+  Footer,
+  VerticalCard,
+  HeroBanner,
+  PromotionBanner,
+  CategoryNavTab,
+} from "../../components/index";
 import ProductCategory from "./ProductCategory/ProductCategory";
 
 function LandingPage() {
@@ -9,14 +16,16 @@ function LandingPage() {
       <ProductCategory />
       <CategoryNavTab />
 
-      <VerticalCard />
-      <VerticalCard />
-      <VerticalCard />
-      <VerticalCard />
-      <VerticalCard />
-      <VerticalCard />
-      <VerticalCard />
-      <VerticalCard />
+      <section class="card_container">
+        <VerticalCard />
+        <VerticalCard />
+        <VerticalCard />
+        <VerticalCard />
+        <VerticalCard />
+        <VerticalCard />
+        <VerticalCard />
+        <VerticalCard />
+      </section>
 
       <PromotionBanner />
 

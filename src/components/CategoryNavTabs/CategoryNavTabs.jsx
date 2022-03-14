@@ -1,3 +1,5 @@
+import "./categoryNavTabs.css";
+
 function CategoryNavTab() {
   return (
     <section class="categories_navTab_container">

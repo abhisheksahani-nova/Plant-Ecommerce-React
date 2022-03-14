@@ -1,3 +1,5 @@
+import "./productCategory.css";
+
 function ProductCategory() {
   return (
     <section class="homepage_categories">
