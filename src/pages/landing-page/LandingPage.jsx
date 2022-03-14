@@ -1,47 +1,14 @@
+import { Navbar } from "../../components/index";
 
-
-function LandingPage(){
-    return(
-        <div class="homepage_main_container">
+function LandingPage() {
+  return (
+    <div class="homepage_main_container">
       {/* <!-- Navbar --> */}
-      <nav class="nav-bar white mb-0">
-        <div class="nav-innerContainer font-clr">
-          <h2 class="nav-heading mr-4 font-resize">Plant.</h2>
-        </div>
-
-        <div class="nav-innerContainer font-clr width-auto">
-          <input class="nav_searchBar" type="text" />
-          <span class="searchBar_icon"
-            ><i class="fa-solid fa-magnifying-glass"></i
-          ></span>
-        </div>
-
-        <div
-          class="nav-innerContainer nav-icon-container width-reset inherit-clr mr-1"
-        >
-          <div class="flex-col-center">
-            <a class="font-clr" href="./wishlist.html"><i class="fa-solid fa-heart"></i></a>
-            <small>Wishlist</small>
-          </div>
-
-          <div class="flex-col-center">
-            <a class="font-clr" href="./login.html"><i class="fa-solid fa-user"></i></a>
-            <small>Profile</small>
-          </div>
-
-          <div class="flex-col-center">
-            <a class="font-clr nav-icon" href="./cartManagement.html"
-              ><i class="fa-solid fa-cart-shopping"></i
-            ></a>
-            <small>Cart</small>
-          </div>
-        </div>
-      </nav>
+      <Navbar />
 
       {/* <!-- hero banner image --> */}
       <section class="homepage_banner_container">
-        <div class="banner_content_container">
-        </div>
+        <div class="banner_content_container"></div>
       </section>
 
       {/* <!-- Product category section --> */}
@@ -74,19 +41,25 @@ function LandingPage(){
       <section class="categories_navTab_container">
         <ul class="categories_navTabs_list">
           <li>
-            <a class="categories_navLink categories_navLink1" href="/new-arrivals"
-              >New Arrivals</a
+            <a
+              class="categories_navLink categories_navLink1"
+              href="/new-arrivals"
             >
+              New Arrivals
+            </a>
           </li>
           <li>
-            <a class="categories_navLink categories_navLink2" href="/bestsellers"
-              >Best Sellers</a
+            <a
+              class="categories_navLink categories_navLink2"
+              href="/bestsellers"
             >
+              Best Sellers
+            </a>
           </li>
           <li>
-            <a class="categories_navLink categories_navLink2" href="/trending"
-              >Trending</a
-            >
+            <a class="categories_navLink categories_navLink2" href="/trending">
+              Trending
+            </a>
           </li>
         </ul>
       </section>
@@ -112,8 +85,10 @@ function LandingPage(){
 
           <div class="card-footer">
             <button class="btn custom_btn">
-              <span class="icon"><i class="fa fa-shopping-cart"></i></span> Add
-              to Cart
+              <span class="icon">
+                <i class="fa fa-shopping-cart"></i>
+              </span>{" "}
+              Add to Cart
             </button>
           </div>
         </div>
@@ -137,8 +112,10 @@ function LandingPage(){
 
           <div class="card-footer">
             <button class="btn custom_btn">
-              <span class="icon"><i class="fa fa-shopping-cart"></i></span> Add
-              to Cart
+              <span class="icon">
+                <i class="fa fa-shopping-cart"></i>
+              </span>{" "}
+              Add to Cart
             </button>
           </div>
         </div>
@@ -162,8 +139,10 @@ function LandingPage(){
 
           <div class="card-footer">
             <button class="btn custom_btn">
-              <span class="icon"><i class="fa fa-shopping-cart"></i></span> Add
-              to Cart
+              <span class="icon">
+                <i class="fa fa-shopping-cart"></i>
+              </span>{" "}
+              Add to Cart
             </button>
           </div>
         </div>
@@ -187,8 +166,10 @@ function LandingPage(){
 
           <div class="card-footer">
             <button class="btn custom_btn">
-              <span class="icon"><i class="fa fa-shopping-cart"></i></span> Add
-              to Cart
+              <span class="icon">
+                <i class="fa fa-shopping-cart"></i>
+              </span>{" "}
+              Add to Cart
             </button>
           </div>
         </div>
@@ -212,8 +193,10 @@ function LandingPage(){
 
           <div class="card-footer">
             <button class="btn custom_btn">
-              <span class="icon"><i class="fa fa-shopping-cart"></i></span> Add
-              to Cart
+              <span class="icon">
+                <i class="fa fa-shopping-cart"></i>
+              </span>{" "}
+              Add to Cart
             </button>
           </div>
         </div>
@@ -237,8 +220,10 @@ function LandingPage(){
 
           <div class="card-footer">
             <button class="btn custom_btn">
-              <span class="icon"><i class="fa fa-shopping-cart"></i></span> Add
-              to Cart
+              <span class="icon">
+                <i class="fa fa-shopping-cart"></i>
+              </span>{" "}
+              Add to Cart
             </button>
           </div>
         </div>
@@ -262,8 +247,10 @@ function LandingPage(){
 
           <div class="card-footer">
             <button class="btn custom_btn">
-              <span class="icon"><i class="fa fa-shopping-cart"></i></span> Add
-              to Cart
+              <span class="icon">
+                <i class="fa fa-shopping-cart"></i>
+              </span>{" "}
+              Add to Cart
             </button>
           </div>
         </div>
@@ -287,8 +274,10 @@ function LandingPage(){
 
           <div class="card-footer">
             <button class="btn custom_btn">
-              <span class="icon"><i class="fa fa-shopping-cart"></i></span> Add
-              to Cart
+              <span class="icon">
+                <i class="fa fa-shopping-cart"></i>
+              </span>{" "}
+              Add to Cart
             </button>
           </div>
         </div>
@@ -319,32 +308,50 @@ function LandingPage(){
       {/* <!-- footer --> */}
       <footer>
         <ul class="footer_list_items">
-          <li><a class="mr-1 footer_link inherit-clr" href="/about">About Us</a></li>
           <li>
-            <a class="mr-1 ml-1 inherit-clr" href="/customer-service">Customer Service</a>
-          </li>
-          <li><a class="mr-1 ml-1 inherit-clr" href="/subscription">Subscription</a></li>
-          <li><a class="mr-1 ml-1 inherit-clr" href="/contact-us">Contact Us</a></li>
-          <li><a class="mr-1 ml-1 inherit-clr" href="/category">Category</a></li>
-          <li>
-            <a class="mr-1 ml-1 inherit-clr" href="./productListing.html"
-              >All Product</a
-            >
+            <a class="mr-1 footer_link inherit-clr" href="/about">
+              About Us
+            </a>
           </li>
           <li>
-            <a class="mr-1 ml-1 inherit-clr" href="./cartManagement.html"
-              >My Cart</a
-            >
+            <a class="mr-1 ml-1 inherit-clr" href="/customer-service">
+              Customer Service
+            </a>
           </li>
           <li>
-            <a class="mr-1 ml-1 inherit-clr" href="./wishlist.html"
-              >My Wishlist</a
-            >
+            <a class="mr-1 ml-1 inherit-clr" href="/subscription">
+              Subscription
+            </a>
+          </li>
+          <li>
+            <a class="mr-1 ml-1 inherit-clr" href="/contact-us">
+              Contact Us
+            </a>
+          </li>
+          <li>
+            <a class="mr-1 ml-1 inherit-clr" href="/category">
+              Category
+            </a>
+          </li>
+          <li>
+            <a class="mr-1 ml-1 inherit-clr" href="./productListing.html">
+              All Product
+            </a>
+          </li>
+          <li>
+            <a class="mr-1 ml-1 inherit-clr" href="./cartManagement.html">
+              My Cart
+            </a>
+          </li>
+          <li>
+            <a class="mr-1 ml-1 inherit-clr" href="./wishlist.html">
+              My Wishlist
+            </a>
           </li>
         </ul>
       </footer>
     </div>
-    )
+  );
 }
 
 export default LandingPage;
