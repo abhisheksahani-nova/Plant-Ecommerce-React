@@ -1,9 +1,10 @@
 import { Navbar, Footer, Filter, VerticalCard } from "../../components/index";
+import "../landing-page/landingPage.css";
+import "./productListing.css";
 
 function ProductListing() {
   return (
     <div class="homepage_main_container">
-      {/* <!-- NavBar --> */}
       <Navbar />
 
       {/* <!-- hero banner image--> */}
@@ -13,7 +14,6 @@ function ProductListing() {
         {/* <!-- filter sidebar --> */}
         <Filter />
 
-        {/* <!-- All product card container --> */}
         <div class="productlisting_products_container">
           <VerticalCard />
           <VerticalCard />
@@ -34,7 +34,6 @@ function ProductListing() {
         <hr class="horizontal_rule" />
       </div>
 
-      {/* <!-- Footer --> */}
       <Footer />
     </div>
   );
